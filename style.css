@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.phone {
+    margin-right: 50px;
+}
+
+.phone img {
+    height: 500px;
+    width: auto;
+}
+
+.instalogo img {
+    height: 120px;
+    width: auto;
+}
+
+.login-form {
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+.login-form h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 93%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.or-divider .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.or-divider span {
+    padding: 0 10px;
+    color: #8e8e8e;
+}
+
+.fb-login {
+    background-color: #4267B2;
+}
+
+.fb-login:hover {
+    background-color: #365899;
+}
+
+.login-form a {
+    color: #00376b;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.signup {
+    margin-top: 20px;
+}
+
+.app-links {
+    margin-top: 20px;
+}
+
+.app-buttons img {
+    width: 135px;
+    margin: 0 5px;
+}
